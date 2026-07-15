@@ -2,7 +2,7 @@
 
 Sistema de recomendación de música personalizado que conecta tu cuenta de Spotify y utiliza Machine Learning para descubrir canciones que no sabías que necesitabas.
 
-![SoundMatch Dashboard](https://i.imgur.com/placeholder.png)
+![SoundMatch Dashboard](https://github.com/user-attachments/assets/49a792f4-9f6e-4fd6-b846-03c8fcbdf0a4)
 
 ## ✨ Features
 
