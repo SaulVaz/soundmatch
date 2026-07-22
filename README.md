@@ -1,4 +1,7 @@
-# 🎵 SoundMatch
+## 🎵 SoundMatch
+
+[![Demo](https://img.shields.io/badge/Demo-Live-green)](https://soundmatch-flax.vercel.app)
+[![Backend](https://img.shields.io/badge/Backend-Render-blue)](https://soundmatch-backend.onrender.com)
 
 Sistema de recomendación de música personalizado que conecta tu cuenta de Spotify y utiliza Machine Learning para descubrir canciones que no sabías que necesitabas.
 
@@ -33,9 +36,10 @@ Sistema de recomendación de música personalizado que conecta tu cuenta de Spot
 - **Axios** — Cliente HTTP
 
 ### Infraestructura
-- **Vercel** — Deploy del frontend *(próximamente)*
-- **AWS EC2 + S3 + RDS** — Deploy del backend *(próximamente)*
-- **Docker** — Containerización *(próximamente)*
+- **Vercel** — Deploy del frontend ✅
+- **Render** — Deploy del backend con Docker ✅
+- **Docker** — Containerización del backend ✅
+- **Docker Hub** — Registry de la imagen (chesebread/soundmatch-backend)
 
 ## 🧠 Cómo funciona el modelo ML
 
@@ -144,8 +148,9 @@ soundmatch/
 - [x] Explicabilidad de recomendaciones
 - [x] Búsqueda de canciones similares
 - [x] Historial reciente
-- [ ] Deploy en AWS (EC2 + S3 + RDS)
-- [ ] Dockerización
+- [x] Dockerización con Docker
+- [x] Deploy backend en Render
+- [x] Deploy frontend en Vercel
 - [ ] CI/CD con GitHub Actions
 - [ ] Modelo XGBoost con SHAP real
 
