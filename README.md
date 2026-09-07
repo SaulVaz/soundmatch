@@ -1,4 +1,4 @@
-## 🎵 SoundMatch
+##  SoundMatch
 
 [![Demo](https://img.shields.io/badge/Demo-Live-green)](https://soundmatch-flax.vercel.app)
 [![Backend](https://img.shields.io/badge/Backend-Render-blue)](https://soundmatch-backend.onrender.com)
@@ -7,7 +7,7 @@ Sistema de recomendación de música personalizado que conecta tu cuenta de Spot
 
 ![SoundMatch Dashboard](https://github.com/user-attachments/assets/49a792f4-9f6e-4fd6-b846-03c8fcbdf0a4)
 
-## ✨ Features
+##  Features
 
 - **OAuth con Spotify** — Autenticación segura con tu cuenta real de Spotify
 - **Recomendaciones ML** — Modelo de similitud de coseno enriquecido con datos de Last.fm
@@ -18,7 +18,7 @@ Sistema de recomendación de música personalizado que conecta tu cuenta de Spot
 - **Cache inteligente** — Navegación fluida sin recargas innecesarias
 - **Loading skeleton** — UX profesional mientras cargan los datos
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Backend
 - **FastAPI** — API REST con Python
@@ -36,12 +36,12 @@ Sistema de recomendación de música personalizado que conecta tu cuenta de Spot
 - **Axios** — Cliente HTTP
 
 ### Infraestructura
-- **Vercel** — Deploy del frontend ✅
-- **Render** — Deploy del backend con Docker ✅
-- **Docker** — Containerización del backend ✅
+- **Vercel** — Deploy del frontend 
+- **Render** — Deploy del backend con Docker 
+- **Docker** — Containerización del backend 
 - **Docker Hub** — Registry de la imagen (chesebread/soundmatch-backend)
 
-## 🧠 Cómo funciona el modelo ML
+##  Cómo funciona el modelo ML
 
 1. Se obtienen las **top 50 canciones** del usuario vía Spotify API
 2. **Last.fm API** enriquece cada artista con géneros musicales y mood tags
@@ -55,7 +55,7 @@ Sistema de recomendación de música personalizado que conecta tu cuenta de Spot
 6. El modelo rankea las candidatas por **similitud de coseno** con el perfil del usuario
 7. Se regresa un top 10 con scores normalizados (70-95%) y explicabilidad por feature
 
-## 🚀 Instalación local
+##  Instalación local
 
 ### Requisitos
 - Python 3.10+
@@ -101,7 +101,7 @@ npm run dev
 
 Abre `http://localhost:5173` en tu navegador.
 
-## 📁 Estructura del proyecto
+##  Estructura del proyecto
 
 ```
 soundmatch/
@@ -130,7 +130,7 @@ soundmatch/
 └── .gitignore
 ```
 
-## 🔑 Variables de entorno
+##  Variables de entorno
 
 | Variable | Descripción |
 |---|---|
@@ -140,7 +140,7 @@ soundmatch/
 | `LASTFM_API_KEY` | API Key de Last.fm |
 | `DATABASE_URL` | URL de conexión a PostgreSQL |
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [x] OAuth con Spotify
 - [x] Modelo ML con cosine similarity
@@ -154,7 +154,7 @@ soundmatch/
 - [ ] CI/CD con GitHub Actions
 - [ ] Modelo XGBoost con SHAP real
 
-## 👨‍💻 Autor
+## Autor
 
 **Saúl Vázquez** — Full Stack Developer & Data Science
 
